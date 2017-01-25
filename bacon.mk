@@ -63,10 +63,13 @@ PRODUCT_PACKAGES += \
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOTANIMATION_HALF_RES := true
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.bacon
+    camera.bacon \
+    libshim_camera \
+    Snap
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -224,6 +227,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.isUsbOtgEnabled=true \
     persist.sys.usb.config=mtp
+
+# Widevine
+PRODUCT_PACKAGES += \
+    libshim_wvm
 
 # WiFi
 PRODUCT_COPY_FILES += \

@@ -20,11 +20,8 @@ vendor/lib/soundfx/libqcvirt.so
 
 # DRM
 bin/qseecomd
-etc/permissions/com.google.widevine.software.drm.xml
-framework/com.google.widevine.software.drm.jar
 lib/libdrmdecrypt.so
 vendor/lib/libQSEEComAPI.so
-vendor/lib/libdrmdiag.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/librpmb.so
@@ -39,7 +36,6 @@ vendor/lib/mediadrm/libwvdrmengine.so
 bin/loc_launcher
 lib/libloc_api_v02.so
 lib/libloc_ds_api.so
-vendor/lib/hw/activity_recognition.msm8974.so
 vendor/lib/hw/flp.default.so
 vendor/lib/libflp.so
 vendor/lib/libgeofence.so
@@ -110,7 +106,6 @@ vendor/lib/libsystem_health_mon.so
 
 # Radio
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
--priv-app/QtiTetherService/QtiTetherService.apk
 -app/shutdownlistener/shutdownlistener.apk
 bin/netmgrd
 bin/qmuxd
@@ -129,7 +124,6 @@ vendor/lib/libconfigdb.so
 vendor/lib/liblqe.so
 vendor/lib/libnetmgr.so
 vendor/lib/libperipheral_client.so
-vendor/lib/libQtiTether.so
 vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libxml.so
