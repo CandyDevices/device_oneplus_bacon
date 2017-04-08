@@ -36,9 +36,6 @@ AUDIO_FEATURE_LOW_LATENCY_PRIMARY := true
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/bacon/bluetooth
 
-# Camera
-USE_DEVICE_SPECIFIC_CAMERA := true
-
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
