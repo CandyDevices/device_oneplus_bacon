@@ -171,7 +171,7 @@ TARGET_NO_RPC := true
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 # Snapdragon LLVM
-TARGET_USE_SDCLANG := true
+TARGET_USE_SDCLANG := false
 
 # Wifi
 BOARD_HAS_QCOM_WLAN              := true
