@@ -1,5 +1,15 @@
 [
   {
+    "repository": "CandyDevices/device_oneplus_bacon",
+    "target_path": "device/oneplus/bacon",
+    "branch": "c8.1"
+  },
+  {
+    "repository": "CandyDevices/device_oppo_common",
+    "target_path": "device/oppo/common",
+    "branch": "c8.1"
+  },
+  {
     "repository": "CandyDevices/device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
     "branch": "c8.1"
@@ -10,7 +20,12 @@
     "branch": "c8.1"
   },
   {
-    "repository": "CandyDevices/vendor_oppo",
+    "repository": "CandyDevices/vendor_oneplus_bacon",
+    "target_path": "vendor/oneplus",
+    "branch": "c8.1"
+  },
+  {
+    "repository": "CandyDevices/vendor_oppo_msm8974-common",
     "target_path": "vendor/oppo",
     "branch": "c8.1"
   }
