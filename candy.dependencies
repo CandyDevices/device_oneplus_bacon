@@ -20,7 +20,7 @@
     "branch": "c8.1"
   },
   {
-    "repository": "CandyDevices/vendor_oneplus_bacon",
+    "repository": "CandyDevices/vendor_oneplus",
     "target_path": "vendor/oneplus",
     "branch": "c8.1"
   },
