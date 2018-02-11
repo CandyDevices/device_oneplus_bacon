@@ -79,6 +79,9 @@ BOARD_SEPOLICY_DIRS += \
 # Snapdragon LLVM
 TARGET_USE_SDCLANG := true
 
+# Timeservice
+BOARD_USES_QC_TIME_SERVICES := true
+
 # TWRP
 ifeq ($(WITH_TWRP),true)
 TARGET_RECOVERY_DEVICE_DIRS += device/oneplus/bacon/twrp
