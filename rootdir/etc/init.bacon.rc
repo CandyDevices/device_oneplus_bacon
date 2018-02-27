@@ -18,6 +18,7 @@ import /init.qcom-common.rc
 
 on fs
     mount_all ./fstab.bacon
+    swapon_all ./fstab.bacon
 
 on init
     export LD_SHIM_LIBS "/system/vendor/lib/libqomx_jpegenc.so|libboringssl-compat.so"
